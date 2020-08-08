@@ -4,7 +4,7 @@
   "description": "A simple Typescript utility to convert Adguard format blocklists to iOS Content Blocker JSON",
   "main": "convert.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node convert.ts"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/orbitcme/adguard-to-ios#readme",
   "dependencies": {
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.7",
     "yargs": "^15.4.1"
   },
   "devDependencies": {
+    "@types/node": "^14.0.27",
     "prettier": "^2.0.5"
   }
 }
